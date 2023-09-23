@@ -23,7 +23,7 @@ const Navbar = () => {
           <div>
             <ul className='flex space-x-8 tracking-wider uppercase cursor-pointer'>
               <ul onMouseOver={handleMouseOver}>
-                <li className='hover:text-gray-400'>musicians</li>
+                <li className='hover:text-gray-300'>musicians</li>
                 {isHovering && (
                   <ul onMouseOut={handleMouseOut} className='fixed flex text-sm mt-4 space-x-4 z-20'>
                     <li className='hover:text-emerald-500 py-3'>lead vocals</li>
@@ -32,8 +32,8 @@ const Navbar = () => {
                   </ul>
                 )}
               </ul>
-              <li className='hover:text-gray-400'>Publications</li>
-              <li className='hover:text-gray-400'>Architecture</li>
+              <li className='hover:text-gray-300'>Publications</li>
+              <li className='hover:text-gray-300'>Architecture</li>
             </ul>
           </div>
         )}
