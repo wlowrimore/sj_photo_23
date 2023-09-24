@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className='flex justify-between items-center py-6 px-20'>
         <div className='uppercase'>
           <h1 className='text-5xl text-emerald-700 tracing-widest'>Sayre Joan</h1>
-          <h3 className='text-3xl text-emerald-100 opacity-70 tracking-wider relative z-[-1] bottom-6 left-14'>Photography</h3>
+          <h3 className='text-3xl text-neutral-50 opacity-50 tracking-wider relative z-[-1] bottom-5 left-14'>Photography</h3>
         </div>
         {toggleNav && (
           <div>

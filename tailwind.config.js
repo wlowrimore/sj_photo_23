@@ -5,7 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: { 'maincustombg': "url('/public/images/darkgreenbg.jpg')" },
+      backgroundImage: {
+        'maincustombg': "url('/public/images/darkgreenbg.jpg')",
+        'gallery1bg': "url('/public/images/green_plaster.jpg')",
+      }
     },
   },
   plugins: [],
