@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p1",
+    "name": "Barry Kerch",
+    "image": "./images/publications/barry_kerch_cover.jpg"
+  },
+  {
+    "id": "p2",
+    "name": "BB King",
+    "image": "./images/publications/bbKing_cover.jpg"
+  },
+  {
+    "id": "p3",
+    "name": "Charlie Benante",
+    "image": "./images/publications/charlie_benante_cover.jpg"
+  },
+  {
+    "id": "p4",
+    "name": "Chris Adler",
+    "image": "./images/publications/chris_adler_aquarian.jpg"
+  },
+  {
+    "id": "p5",
+    "name": "Gary Jannaman",
+    "image": "./images/publications/gary_jannaman_ibanez.jpg"
+  },
+  {
+    "id": "p6",
+    "name": "Ian Paice",
+    "image": "./images/publications/ian_paice_pearl.jpg"
+  },
+  {
+    "id": "p7",
+    "name": "James Kottak",
+    "image": "./images/publications/james_kottak_aquarian.jpg"
+  },
+  {
+    "id": "p8",
+    "name": "Jason Sutter",
+    "image": "./images/publications/jason_sutter_cover.jpg"
+  },
+  {
+    "id": "p9",
+    "name": "Jon Fishman",
+    "image": "./images/publications/jon_fishman_cover.jpg"
+  },
+  {
+    "id": "p10",
+    "name": "Michael Cartellone",
+    "image": "./images/publications/mcart_mc_masters.jpg"
+  },
+  {
+    "id": "p11",
+    "name": "Michael Cartellone",
+    "image": "./images/publications/michael_cartellone_cover.jpg"
+  },
+  {
+    "id": "p12",
+    "name": "Neil Peart",
+    "image": "./images/publications/neil_peart_cover.jpg"
+  },
+  {
+    "id": "p13",
+    "name": "Nicko McBrain",
+    "image": "./images/publications/nicko_mcbrain_cover.jpg"
+  },
+  {
+    "id": "p14",
+    "name": "Norwood Fisher",
+    "image": "./images/publications/norwood_fisher_cover.jpg"
+  },
+  {
+    "id": "p15",
+    "name": "Rocket McAfee",
+    "image": "./images/publications/rocket_mcafee_aquarian.jpg"
+  },
+  {
+    "id": "p16",
+    "name": "Roger Taylor",
+    "image": "./images/publications/roger_taylor_cover.jpg"
+  },
+  {
+    "id": "p17",
+    "name": "Ronnie Vanucci",
+    "image": "./images/publications/ronnie_vanucci_cover.jpg"
+  },
+  {
+    "id": "p18",
+    "name": "Rory Doyle",
+    "image": "./images/publications/rory_doyle_cover.jpg"
+  },
+  {
+    "id": "p19",
+    "name": "Shannon Leto",
+    "image": "./images/publications/shannon_leto_cover.jpg"
+  },
+  {
+    "id": "p20",
+    "name": "Spanky McCurdy",
+    "image": "./images/publications/spanky_mccurdy_tama.jpg"
+  },
+  {
+    "id": "p21",
+    "name": "Steve Spence",
+    "image": "./images/publications/steve_spence_paiste.jpg"
+  },
+  {
+    "id": "p22",
+    "name": "Tal Bergman",
+    "image": "./images/publications/tal_bergman_cover.jpg"
+  },
+  {
+    "id": "p23",
+    "name": "Tico Torres",
+    "image": "./images/publications/tico_torres_cover.jpg"
+  },
+  {
+    "id": "p24",
+    "name": "Todd Sucherman",
+    "image": "./images/publications/todd_sucherman_cover.jpg"
+  },
+  {
+    "id": "p25",
+    "name": "Todd Sucherman",
+    "image": "./images/publications/todd_ts_masters.jpg"
+  },
+  {
+    "id": "p26",
+    "name": "Tommy Lee",
+    "image": "./images/publications/tommy_lee_cover.jpg"
+  },
+  {
+    "id": "p27",
+    "name": "Steve Gadd",
+    "image": "./images/publications/vicFirth_gadd.jpg"
+  },
+  {
+    "id": "p28",
+    "name": "Xavier Muriel",
+    "image": "./images/publications/xavier_muriel_cover.jpg"
+  },
+  {
+    "id": "p29",
+    "name": "Todd Sucherman",
+    "image": "./images/publications/todd_sucherman_sabian.jpg"
+  },
+  {
+    "id": "p30",
+    "name": "Eric Singer",
+    "image": "./images/publications/eric_singer_cover.jpg"
+  }
+]

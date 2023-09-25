@@ -15,13 +15,15 @@ const Gallery = () => {
               </div>
             </div>
           </a>
-          <div className='flex flex-col items-center border border-emerald-700 rounded pt-6 px-6 transform
+          <a href='#publications-gallery'>
+            <div className='flex flex-col items-center border border-emerald-700 rounded pt-6 px-6 transform
                                 transition duration-500 hover:scale-95 hover:opacity-60 cursor-pointer'>
-            <h3 className='signature text-4xl tracking-widest text-emerald-700'>Publications</h3>
-            <div className='py-8'>
-              <img src='./images/icons/publications.svg' alt='book icon' width={500} height={500} className='w-44 opacity-60' />
+              <h3 className='signature text-4xl tracking-widest text-emerald-700'>Publications</h3>
+              <div className='py-8'>
+                <img src='./images/icons/publications.svg' alt='book icon' width={500} height={500} className='w-44 opacity-60' />
+              </div>
             </div>
-          </div>
+          </a>
           <div className='flex flex-col items-center border border-emerald-700 rounded pt-6 px-6 transform
                                 transition duration-500 hover:scale-95 hover:opacity-60 cursor-pointer'>
             <h3 className='signature text-4xl tracking-widest text-emerald-700'>Architecture</h3>

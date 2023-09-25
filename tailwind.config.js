@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'maincustombg': "url('/public/images/darkgreenbg.jpg')",
-        'musicianscustombg': "url('/public/images/green_plaster.jpg')",
+        'maincustombg': "url('/public/images/stock/darkgreenbg.jpg')",
+        'musicianscustombg': "url('/public/images/stock/green_plaster.jpg')",
       }
     },
   },
