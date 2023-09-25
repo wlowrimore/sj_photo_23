@@ -1,0 +1,152 @@
+[
+  {
+    "id": "m1",
+    "name": "Alanis Morrisette",
+    "image": "./images/musicians/alanis_morrisette.jpg"
+  },
+  {
+    "id": "m2",
+    "name": "Alicia Keys",
+    "image": "./images/musicians/alicia_keys.jpg"
+  },
+  {
+    "id": "m3",
+    "name": "Greg Bissonette",
+    "image": "./images/musicians/bissonette.jpg"
+  },
+  {
+    "id": "m4",
+    "name": "Brad Paisley",
+    "image": "./images/musicians/brad_paisley.jpg"
+  },
+  {
+    "id": "m5",
+    "name": "Chad Smith",
+    "image": "./images/musicians/chad_smith.jpg"
+  },
+  {
+    "id": "m6",
+    "name": "Chris Isaac",
+    "image": "./images/musicians/chris_isaac.jpg"
+  },
+  {
+    "id": "m7",
+    "name": "Derek Trucks",
+    "image": "./images/musicians/derek_trucks.jpg"
+  },
+  {
+    "id": "m8",
+    "name": "Elton John",
+    "image": "./images/musicians/elton_john.jpg"
+  },
+  {
+    "id": "m9",
+    "name": "Elvis Costello",
+    "image": "./images/musicians/elvis_costello.jpg"
+  },
+  {
+    "id": "m10",
+    "name": "Eric Johnson",
+    "image": "./images/musicians/eric_johnson.jpg"
+  },
+  {
+    "id": "m11",
+    "name": "Flea",
+    "image": "./images/musicians/flea.jpg"
+  },
+  {
+    "id": "m12",
+    "name": "Geddy Lee",
+    "image": "./images/musicians/geddy_lee.jpg"
+  },
+  {
+    "id": "m13",
+    "name": "Jason Bonham",
+    "image": "./images/musicians/jason_bonham.jpg"
+  },
+  {
+    "id": "m14",
+    "name": "Jay Z",
+    "image": "./images/musicians/jay_z.jpg"
+  },
+  {
+    "id": "m15",
+    "name": "Jeff Beck",
+    "image": "./images/musicians/jeff_beck.jpg"
+  },
+  {
+    "id": "m16",
+    "name": "Kenny Aronoff",
+    "image": "./images/musicians/kenny_aronoff2.jpg"
+  },
+  {
+    "id": "m17",
+    "name": "Madonna",
+    "image": "./images/musicians/madonna.jpg"
+  },
+  {
+    "id": "m18",
+    "name": "Mary J Blige",
+    "image": "./images/musicians/mary_j_blige.jpg"
+  },
+  {
+    "id": "m19",
+    "name": "Max Weinberg",
+    "image": "./images/musicians/max_weinberg.jpg"
+  },
+  {
+    "id": "m20",
+    "name": "Miley Cirus",
+    "image": "./images/musicians/miley_cirus.jpg"
+  },
+  {
+    "id": "m21",
+    "name": "Paul Stanley",
+    "image": "./images/musicians/paul_stanley.jpg"
+  },
+  {
+    "id": "m22",
+    "name": "Shakira",
+    "image": "./images/musicians/shakira.jpg"
+  },
+  {
+    "id": "m23",
+    "name": "Slash",
+    "image": "./images/musicians/slash.jpg"
+  },
+  {
+    "id": "m24",
+    "name": "Taylor Swift",
+    "image": "./images/musicians/taylor_swift.jpg"
+  },
+  {
+    "id": "m25",
+    "name": "Tom Petty",
+    "image": "./images/musicians/tom_petty.jpg"
+  },
+  {
+    "id": "m26",
+    "name": "Tony Bennett",
+    "image": "./images/musicians/tony_bennett.jpg"
+  },
+  {
+    "id": "m27",
+    "name": "Usher",
+    "image": "./images/musicians/usher.jpg"
+  },
+  {
+    "id": "m28",
+    "name": "Dave Weckl",
+    "image": "./images/musicians/weckl.jpg"
+  },
+  {
+    "id": "m29",
+    "name": "Lady Gaga",
+    "image": "./images/musicians/lady_gaga.jpg"
+  },
+  {
+    "id": "m30",
+    "name": "Jennifer Lopez",
+    "image": "./images/musicians/jennifer_lopez.jpg"
+  }
+]

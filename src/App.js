@@ -1,4 +1,5 @@
-import Gallery from "./components/gallery/Gallery";
+import GalleryChoice from "./components/gallery/GalleryChoice";
+import MusiciansGallery from "./components/gallery/musicians_gallery/MusiciansGallery";
 import Navbar from "./components/header/Navbar";
 import Home from "./components/home/Home";
 
@@ -12,7 +13,10 @@ function App() {
       </div>
       <div>
 
-        <Gallery />
+        <GalleryChoice />
+      </div>
+      <div>
+        <MusiciansGallery />
       </div>
     </div>
   );

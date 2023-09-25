@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'maincustombg': "url('/public/images/darkgreenbg.jpg')",
-        'gallery1bg': "url('/public/images/green_plaster.jpg')",
+        'musicianscustombg': "url('/public/images/green_plaster.jpg')",
       }
     },
   },
