@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <main className='min-h-screen bg-maincustombg bg-fixed bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center'>
-      <section className='relative'>
+      <section className='relative z-0'>
         <img src='./images/camera.png' alt='camera' width={1000} height={1000} className='opacity-20 w-[75rem]' />
         <div className='absolute bottom-[14rem] left-14 z-20'>
           <h1 className='text-8xl font-normal text-emerald-800 pb-6'>Welcome to my site!</h1>

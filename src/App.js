@@ -15,7 +15,7 @@ function App() {
 
         <GalleryChoice />
       </div>
-      <div>
+      <div id="musicians-gallery">
         <MusiciansGallery />
       </div>
     </div>
