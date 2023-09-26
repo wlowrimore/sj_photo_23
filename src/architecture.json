@@ -1,0 +1,122 @@
+[
+  {
+    "id": "arc1",
+    "image": "./images/architecture/aronin.jpg"
+  },
+  {
+    "id": "arc2",
+    "image": "./images/architecture/att.jpg"
+  },
+  {
+    "id": "arc3",
+    "image": "./images/architecture/audi-nashville.jpg"
+  },
+  {
+    "id": "arc4",
+    "image": "./images/architecture/bentley.jpg"
+  },
+  {
+    "id": "arc5",
+    "image": "./images/architecture/broadway-drummers.jpg"
+  },
+  {
+    "id": "arc6",
+    "image": "./images/architecture/cambria-front.jpg"
+  },
+  {
+    "id": "arc7",
+    "image": "./images/architecture/cambria-hotel.jpg"
+  },
+  {
+    "id": "arc8",
+    "image": "./images/architecture/christmas-in-nash.jpg"
+  },
+  {
+    "id": "arc9",
+    "image": "./images/architecture/eclipse-over-nashville.jpg"
+  },
+  {
+    "id": "arc10",
+    "image": "./images/architecture/elton-studio.jpg"
+  },
+  {
+    "id": "arc11",
+    "image": "./images/architecture/fifth-broadway.jpg"
+  },
+  {
+    "id": "arc12",
+    "image": "./images/architecture/hill-center.jpg"
+  },
+  {
+    "id": "arc13",
+    "image": "./images/architecture/home-studio.jpg"
+  },
+  {
+    "id": "arc14",
+    "image": "./images/architecture/jw-hotel-view.jpg"
+  },
+  {
+    "id": "arc15",
+    "image": "./images/architecture/jw-hotel.jpg"
+  },
+  {
+    "id": "arc16",
+    "image": "./images/architecture/nash-yard.jpg"
+  },
+  {
+    "id": "arc17",
+    "image": "./images/architecture/omni-colors.jpg"
+  },
+  {
+    "id": "arc18",
+    "image": "./images/architecture/omni-suite.jpg"
+  },
+  {
+    "id": "arc19",
+    "image": "./images/architecture/piano-room.jpg"
+  },
+  {
+    "id": "arc20",
+    "image": "./images/architecture/turnip-truck.jpg"
+  },
+  {
+    "id": "arc21",
+    "image": "./images/architecture/union-station.jpg"
+  },
+  {
+    "id": "arc22",
+    "image": "./images/architecture/waterforn-interior.jpg"
+  },
+  {
+    "id": "arc23",
+    "image": "./images/architecture/ymca-crane.jpg"
+  },
+  {
+    "id": "arc24",
+    "image": "./images/architecture/nash-under-cons.jpg"
+  },
+  {
+    "id": "arc25",
+    "image": "./images/architecture/smoakstack.jpg"
+  },
+  {
+    "id": "arc26",
+    "image": "./images/architecture/opryland-xmas.jpg"
+  },
+  {
+    "id": "arc27",
+    "image": "./images/architecture/nash-old-arch.jpg"
+  },
+  {
+    "id": "arc28",
+    "image": "./images/architecture/meharry-dusk.jpg"
+  },
+  {
+    "id": "arc29",
+    "image": "./images/architecture/nash-fifth-brdwy.jpg"
+  },
+  {
+    "id": "arc30",
+    "image": "./images/architecture/hill-center.jpg"
+  }
+]
