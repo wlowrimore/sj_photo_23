@@ -1,10 +1,11 @@
+import Footer from "./components/footer/Footer";
 import GalleryChoice from "./components/gallery/GalleryChoice";
 import ArchitectureGallery from "./components/gallery/architecture_gallery/ArchitectureGallery";
 import MusiciansGallery from "./components/gallery/musicians_gallery/MusiciansGallery";
 import PublicationsGallery from "./components/gallery/publications_gallery/PublicationsGallery";
 import Navbar from "./components/header/Navbar";
 import Home from "./components/home/Home";
-import Overlay2 from "./components/overlays/Overlay2";
+import About from "./components/about/About";
 import TestimonialsOverlay from "./components/overlays/TestimonialsOverlay";
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
       <div>
         <GalleryChoice />
       </div>
-      <Overlay2 />
+      <div id='about'>
+        <About />
+      </div>
       <div id="musicians-gallery">
         <MusiciansGallery />
       </div>
@@ -26,11 +29,11 @@ function App() {
       <div id='publications-gallery'>
         <PublicationsGallery />
       </div>
-      <Overlay2 />
+      {/* <Overlay2 /> */}
       <div id='architecture-gallery'>
         <ArchitectureGallery />
       </div>
-      <Overlay2 />
+      <Footer />
     </div>
   );
 }
