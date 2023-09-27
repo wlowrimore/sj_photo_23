@@ -16,3 +16,16 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   transition: background-color 200ms ease-in-out; 
 }
+
+.btmbrdr:after {
+  display:block;
+  content: '';
+  /* width: inherit; */
+  border-bottom: solid 3px #d1fae5;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.btmbrdr:hover:after {
+  transform: scaleX(1);
+}

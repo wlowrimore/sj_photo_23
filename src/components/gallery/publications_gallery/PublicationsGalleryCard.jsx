@@ -24,7 +24,7 @@ const PublicationsGalleryCard = () => {
 
               <img key={index} src={publication.image} alt={publication.name} className='w-full aspect-square' />
 
-              <h1 className='w-full text-center my-auto px-4'>{publication.name}</h1>
+              <h1 className='w-full text-emerald-200 font-light text-center my-auto px-4'>{publication.name}</h1>
             </div>
           ))}
         </div>

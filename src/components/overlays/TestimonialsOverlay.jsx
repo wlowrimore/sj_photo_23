@@ -9,7 +9,7 @@ const TestimonialsOverlay = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-    }, 3000);
+    }, 8000);
 
     return () => {
       clearInterval(intervalId);

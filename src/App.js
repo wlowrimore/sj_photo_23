@@ -7,15 +7,16 @@ import Navbar from "./components/header/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import TestimonialsOverlay from "./components/overlays/TestimonialsOverlay";
+import Services from "./components/services/Services";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <div>
+      <div id="home">
         <Home />
       </div>
-      <div>
+      <div id='gallery-choices'>
         <GalleryChoice />
       </div>
       <div id='about'>
@@ -29,7 +30,9 @@ function App() {
       <div id='publications-gallery'>
         <PublicationsGallery />
       </div>
-      {/* <Overlay2 /> */}
+      <div id='services'>
+        <Services />
+      </div>
       <div id='architecture-gallery'>
         <ArchitectureGallery />
       </div>

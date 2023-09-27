@@ -24,7 +24,7 @@ const MusiciansGalleryCard = () => {
 
               <img key={index} src={musician.image} alt={musician.name} className='w-full aspect-square' />
 
-              <h1 className='w-full text-center my-auto px-4'>{musician.name}</h1>
+              <h1 className='w-full text-emerald-200 font-light text-center my-auto px-4'>{musician.name}</h1>
             </div>
           ))}
         </div>

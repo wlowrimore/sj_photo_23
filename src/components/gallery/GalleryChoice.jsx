@@ -1,12 +1,25 @@
-import React from 'react'
+import { useState } from 'react'
 
 const Gallery = () => {
+  const [toggle, setToggle] = useState(false);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    setToggle(!toggle);
+
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <main className='min-h-screen bg-neutral-800 flex flex-col justify-center items-center mx-auto'>
       <section className='border border-emerald-700 p-16 rounded'>
         <h1 className='uppercase text-2xl pb-16 text-gray-400 tracking-wider'>Choose your gallery</h1>
         <div className='grid grid-cols-3 gap-40'>
-          <a href='#musicians-gallery'>
+          <a href='#musicians-gallery' onClick={handleClick}>
             <div className='flex flex-col items-center border border-emerald-700 rounded pt-6 px-6 transform
                                 transition duration-500 hover:scale-95 hover:opacity-60 cursor-pointer'>
               <h3 className='signature text-4xl tracking-widest text-emerald-700'>Musicians</h3>
@@ -15,7 +28,7 @@ const Gallery = () => {
               </div>
             </div>
           </a>
-          <a href='#publications-gallery'>
+          <a href='#publications-gallery' onClick={handleClick}>
             <div className='flex flex-col items-center border border-emerald-700 rounded pt-6 px-6 transform
                                 transition duration-500 hover:scale-95 hover:opacity-60 cursor-pointer'>
               <h3 className='signature text-4xl tracking-widest text-emerald-700'>Publications</h3>
@@ -24,7 +37,7 @@ const Gallery = () => {
               </div>
             </div>
           </a>
-          <a href='#architecture-gallery'>
+          <a href='#architecture-gallery' onClick={handleClick}>
             <div className='flex flex-col items-center border border-emerald-700 rounded pt-6 px-6 transform
                                 transition duration-500 hover:scale-95 hover:opacity-60 cursor-pointer'>
               <h3 className='signature text-4xl tracking-widest text-emerald-700'>Architecture</h3>
