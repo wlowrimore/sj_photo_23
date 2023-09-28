@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { Fade } from 'react-awesome-reveal';
+
 import publications from "../../../publications.json";
 
 const PublicationsGalleryCard = () => {
@@ -29,10 +31,11 @@ const PublicationsGalleryCard = () => {
           ))}
         </div>
         {modalOpen && (
-          <div className='w-screen h-screen fixed top-0 left-0 z-10 bg-black/40 flex flex-col justify-center items-center px-auto backdrop-blur-md'>
-            <span className='text-5xl text-white relative left-96 cursor-pointer transform transition hover:text-neutral-500 duration-500' onClick={closeModal}>&times;</span>
-            <img src={selectedImage} alt="Selected Image" className='w-[50rem]' />
-
+          <div className='w-screen h-screen fixed top-0 left-0 z-10 bg-black/60 backdrop-blur-sm flex flex-col justify-center items-center px-auto'>
+            <Fade duration={1000} triggerOnce="true">
+              <span className='text-5xl text-white relative left-96 cursor-pointer transform transition hover:text-neutral-500 duration-500' onClick={closeModal}>&times;</span>
+              <img src={selectedImage} alt="Selected Image" className='w-[50rem] border-2 border-emerald-200 rounded shadow-md shadow-black' />
+            </Fade>
           </div>
         )}
       </main>

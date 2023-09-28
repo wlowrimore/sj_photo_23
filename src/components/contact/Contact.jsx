@@ -54,7 +54,7 @@ const Contact = () => {
         Send&nbsp;<img src='./images/icons/sendIcon.svg' alt='send icon' className='w-10' />&nbsp;Message
       </div>
       {success && (
-        <div className='bg-teal-600/80 rounded-xl text-2xl text-semibold flex justify-center items-center mx-auto fixed top-5 z-50 py-2 px-4'>
+        <div className='bg-teal-500/90 font-semibold rounded-xl text-2xl text-semibold flex justify-center items-center mx-auto fixed top-5 z-50 py-2 px-4'>
           <h3>Thank you <em>{fullName}</em>, your message was successfully sent!</h3>
         </div>
       )}
