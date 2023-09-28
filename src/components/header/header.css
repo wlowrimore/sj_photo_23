@@ -20,7 +20,6 @@
 .btmbrdr:after {
   display:block;
   content: '';
-  /* width: inherit; */
   border-bottom: solid 3px #d1fae5;  
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
