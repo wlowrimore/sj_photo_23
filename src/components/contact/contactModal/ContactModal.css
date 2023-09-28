@@ -21,6 +21,15 @@
   z-index: 1010;
 }
 
+/* @media only screen and (max-width: 600px) {
+  .modal {
+    width: 20rem;
+    height: 50rem;
+    margin: 0;
+    padding: 0;
+  }
+} */
+
 .modal-close {
   position: absolute;
   color: #047857;

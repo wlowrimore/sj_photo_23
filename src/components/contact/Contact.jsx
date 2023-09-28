@@ -18,20 +18,20 @@ const Contact = () => {
 
   return (
     <form
-      className="bg-neutral-800 w-full flex flex-col items-center justify-center px-20 pb-20 mx-auto"
+      className="bg-neutral-800 lg:w-full flex flex-col items-center justify-center lg:px-20 pb-20 mx-auto"
       id="form">
-      <div className='w-full py-20 flex justify-center text-emerald-200'>
-        <h1 className='text-4xl opacity-40 signature'>SayreJoan Photography</h1>
+      <div className='w-full py-4 lg:py-20 flex justify-center text-emerald-200'>
+        <h1 className='text-3xl lg:text-4xl opacity-40 pt-12 signature'>SayreJoan Photography</h1>
       </div>
-      <div className='flex flex-col w-full py-4'>
+      <div className='flex flex-col w-full px-4 py-4'>
         <input type='text' name='full_name' onChange={(e) => setFullName(e.target.value)} className="bg-transparent border-b border-white placeholder-white text-white font-thin tracking-wide focus:bg-transparent focus:border-white outline-none w-full px-1" required />
         <label htmlFor='full-name' className='text-emerald-200 px-2 text-start'>full name</label>
       </div>
-      <div className='flex flex-col w-full py-4'>
+      <div className='flex flex-col w-full px-4 py-4'>
         <input type='email' name='email' onChange={(e) => setEmail(e.target.value)} className="bg-transparent border-b border-white placeholder-white text-white font-thin tracking-wide focus:bg-transparent focus:border-white outline-none w-full px-1" required />
         <label htmlFor='email' className='text-emerald-200 px-2 text-start'>email</label>
       </div>
-      <div className='flex flex-col w-full py-4'>
+      <div className='flex flex-col w-full px-4 py-4'>
         <input type='tel' name='phone' onChange={(e) => setPhone(e.target.value)} className="bg-transparent border-b border-white placeholder-white text-white font-thin tracking-wide focus:bg-transparent focus:border-white outline-none w-full px-1" />
         <label htmlFor='phone' className='text-emerald-200 px-2 text-start'>phone number (optional)</label>
       </div>
@@ -46,7 +46,7 @@ const Contact = () => {
           cols="30"
           rows="8"
         ></textarea>
-        <label htmlFor="message" className="text-emerald-200 px-2 text-start">
+        <label htmlFor="message" className="text-emerald-200 w-full px-6 lg:px-2 text-start">
           message
         </label>
       </div>

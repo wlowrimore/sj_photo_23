@@ -20,9 +20,9 @@ const MusiciansGalleryCard = () => {
   return (
     <>
       <main className=''>
-        <div className='grid grid-cols-6 justify-center items-center mx-auto gap-y-6 gap-x-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-6 justify-center items-center mx-auto gap-y-6 gap-x-20'>
           {musicians.map((musician, index) => (
-            <div key={musician.id} className='w-[14rem] h-[18rem] flex flex-col border border-black p-2 rounded text-xl font-semibold tracking-wide bg-white/10 cursor-pointer transform trasition hover:opacity-80 hover:scale-110 duration-500' onClick={() => openModal(musician.image)}>
+            <div key={musician.id} className='md:w-[14rem] md:h-[18rem] flex flex-col border border-black p-2 rounded text-xl font-semibold tracking-wide bg-white/10 cursor-pointer transform trasition hover:opacity-80 hover:scale-110 duration-500' onClick={() => openModal(musician.image)}>
 
               <img key={index} src={musician.image} alt={musician.name} className='w-full aspect-square' />
 

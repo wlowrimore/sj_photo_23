@@ -56,17 +56,17 @@ const Navbar = ({ setModalOpen }) => {
           ? 'hidden md:flex headerNav headerNav-bg pt-[2rem]'
           : 'hidden md:flex headerNav pt-[2rem]'
       }>
-        <nav className='flex w-full justify-between items-center py-6 px-20'>
+        <nav className='lg:flex w-full h-[10rem] justify-between items-center pt-8 mx-4 lg:py-6 lg:px-20'>
           <a href='#home' onClick={handleClick}>
             <div className='uppercase'>
-              <h1 className='text-5xl text-emerald-700 tracing-widest'>Sayre Joan</h1>
-              <h3 className='text-3xl text-neutral-50 opacity-50 tracking-wider relative z-[-1] bottom-5 left-14'>Photography</h3>
+              <h1 className='text-3xl lg:text-5xl text-emerald-700'>Sayre Joan</h1>
+              <h3 className='text-2xl lg:text-3xl text-neutral-50 opacity-50 tracking-wider lg:relative z-[-1] bottom-5 left-14'>Photography</h3>
             </div>
           </a>
 
 
           <div className='text-emerald-100 uppercase'>
-            <ul className='flex space-x-8 cursor-pointer'>
+            <ul className='hidden lg:flex space-x-8 cursor-pointer'>
               <ul onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>galleries
                 {isHovering && (
                   <ul className='fixed z-20 p-2 text-sm tracking-wider bg-neutral-900/70 rounded-b-lg'>
@@ -84,6 +84,34 @@ const Navbar = ({ setModalOpen }) => {
 
         </nav>
       </header>
+
+      {/* mobile */}
+
+      <div className="md:hidden fixed z-10 w-screen bottom-0 bg-black">
+        <nav className="flex justify-center items-center"></nav>
+        <ul className="flex justify-center items-center py-2">
+          <li className="px-2 text-sm text-center text-white">
+            <a href='#home'>home</a>
+          </li>
+
+          <li className="px-2 text-sm text-center text-white">
+            <a href='#gallery-choices'>galleries</a>
+          </li>
+
+          <li className="px-2 text-sm text-center text-white">
+            <a href='#services'>services</a>
+          </li>
+
+          <li className="px-2 text-sm text-center text-white">
+            <a href='#about'>about</a>
+          </li>
+
+          <li className="px-2 text-sm text-center text-white">
+            <a href='#contact' onClick={openModal}>contact</a>
+          </li>
+        </ul>
+      </div>
+
       <ContactModal isOpen={isModalOpen} openModal={openModal} onClose={closeModal}>
         <Contact />
       </ContactModal>
