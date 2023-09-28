@@ -8,7 +8,7 @@ const Footer = () => {
           <p>Sayre Joan Photography &copy; 2023 All Rights Reserved.</p>
         </div>
         <div className=''>
-          <p>created by fakenamedev -William Lowrimore- &copy; 2023 All Rights Reserved.</p>
+          <p>created by fakenamedev - William Lowrimore- &copy; 2023 All Rights Reserved.</p>
         </div>
       </div>
     </footer>
