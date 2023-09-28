@@ -28,7 +28,7 @@ const ArchitectureGalleryCard = () => {
 
             </div>
           ))}
-          <p className='text-xs text-center'>&copy; William Lowrimore 2023. All Rights Reserved.</p>
+          <p className='lg:hidden text-xs text-center'>&copy; William Lowrimore 2023. All Rights Reserved.</p>
 
         </div>
         {modalOpen && (
